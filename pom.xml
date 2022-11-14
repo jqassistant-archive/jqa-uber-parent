@@ -101,7 +101,7 @@
         <maven.install.version>3.0.0-M1</maven.install.version>
         <maven.jar.version>3.2.2</maven.jar.version>
         <maven.javadoc.version>3.4.0</maven.javadoc.version>
-        <maven.jaxb2-plugin.version>0.14.0</maven.jaxb2-plugin.version>
+        <maven.jaxb2-plugin.version>0.15.1</maven.jaxb2-plugin.version>
 
         <!--
          ! This two properties controls on which severity of constraint
@@ -120,7 +120,7 @@
          ! previous version of jQAssistant.
          !                          Oliver B. Fischer, 2015-11-27
          !-->
-        <maven.jqassistant.previous.version>1.12.0-M1</maven.jqassistant.previous.version>
+        <maven.jqassistant.previous.version>1.12.2</maven.jqassistant.previous.version>
         <maven.min.version>3.5.0</maven.min.version>
         <maven.resources.version>3.0.2</maven.resources.version>
         <maven.shade.version>3.1.1</maven.shade.version>
@@ -129,7 +129,7 @@
         <maven.surefire.version>${maven.failsafe.version}</maven.surefire.version>
         <maven.xml.version>1.0.2</maven.xml.version>
         <org.asciidoctor-plugin.version>2.2.1</org.asciidoctor-plugin.version>
-        <junit.version>5.9.0-M1</junit.version>
+        <junit.version>5.9.1</junit.version>
     </properties>
 
     <build>
@@ -221,10 +221,10 @@
                     <version>${maven.compiler.version}</version>
                     <configuration>
                         <encoding>UTF-8</encoding>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                        <testSource>1.8</testSource>
-                        <testTarget>1.8</testTarget>
+                        <source>11</source>
+                        <target>11</target>
+                        <testSource>11</testSource>
+                        <testTarget>11</testTarget>
                     </configuration>
                 </plugin>
 
