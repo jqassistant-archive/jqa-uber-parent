@@ -355,42 +355,7 @@
                             <configuration>
                                 <rules>
                                     <requireJavaVersion>
-                                        <!-- todo java 11 -->
-                                        <version>1.8</version>
-                                    </requireJavaVersion>
-                                </rules>
-                            </configuration>
-                        </execution>
-                        <execution>
-                            <id>enforce-banned-dependencies</id>
-                            <goals>
-                                <goal>enforce</goal>
-                            </goals>
-                            <configuration>
-                                <rules>
-                                    <bannedDependencies>
-                                        <excludes>
-                                            <!-- todo java 11 -->
-                                            <!--
-                                            <exclude>javax.xml.bind:jaxb-api</exclude>
-                                            <exclude>com.sun.xml.bind:jaxb-impl</exclude>
-                                            -->
-                                        </excludes>
-                                    </bannedDependencies>
-                                </rules>
-                                <fail>true</fail>
-                            </configuration>
-                        </execution>
-                        <execution>
-                            <id>enforce-java-version</id>
-                            <goals>
-                                <goal>enforce</goal>
-                            </goals>
-                            <configuration>
-                                <rules>
-                                    <requireJavaVersion>
-                                        <!-- todo java 11 -->
-                                        <version>1.8</version>
+                                        <version>11</version>
                                     </requireJavaVersion>
                                 </rules>
                             </configuration>
